@@ -1,0 +1,82 @@
+.row
+	display flex
+	width 100%
+	flex-flow row wrap
+
+	&.-left
+		justify-content flex-start
+		
+	&.-center
+		justify-content center
+		
+	&.-right
+		justify-content flex-end
+		
+	&.-between
+		justify-content space-between
+		
+	&.-around
+		justify-content space-around
+		
+	&.-top
+		align-items flex-start
+	
+	&.-middle
+		align-items center
+		
+	&.-bottom
+		align-items flex-end
+		
+	&.-reverse
+		flex-direction column-reverse
+		
+		@media(min-width 769px)
+			flex-direction row-reverse
+
+.col
+	flex 1 1 100%
+	
+	&.-first
+		order -1
+	
+	@media(min-width 769px)
+		flex 1
+		
+		&.-s0
+			flex initial
+		
+		&.-s1
+			flex 0 0 8.333%
+			
+		&.-s2
+			flex 0 0 16.667%
+			
+		&.-s3
+			flex 0 0 25%
+			
+		&.-s4
+			flex 0 0 33.333%
+			
+		&.-s5
+			flex 0 0 41.667%
+			
+		&.-s6
+			flex 0 0 50%
+			
+		&.-s7
+			flex 0 0 58.333%
+			
+		&.-s8
+			flex 0 0 66.667%
+			
+		&.-s9
+			flex 0 0 75%
+			
+		&.-s10
+			flex 0 0 83.333%
+			
+		&.-s11
+			flex 0 0 91.667%
+			
+		&.-s12
+			flex 0 0 100%
