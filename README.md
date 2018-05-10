@@ -1,4 +1,4 @@
 # nflex
-nFlex Grid - The smartest and lightest grid solution
+Simple grid using css flexbox
 
 https://neemiasjnr.github.io/nflex/
